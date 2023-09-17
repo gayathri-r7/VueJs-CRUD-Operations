@@ -47,7 +47,6 @@ export default {
   },
   methods: {
     userCreatePayload(data){
-      console.log(data);
       this.data = data;
     },
     Users(data){

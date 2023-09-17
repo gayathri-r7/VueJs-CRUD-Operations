@@ -114,8 +114,7 @@ export default {
       }
     },
     watch: {
-        'userData': function(val) {
-            console.log(val);
+        'userData': function() {
             this.createUser();
         }
     },
